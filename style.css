@@ -1,0 +1,46 @@
+.fondo{
+    background-color: black;
+    width: 1440px;
+    height: 1024px;
+    position: absolute;
+}
+
+.imagen-fondo{
+position: relative;
+margin-top: 240px;
+width: 1440px;
+height: 784px;
+}
+
+.contenido{
+    position: absolute;
+}
+
+.imagen-logo{
+    width: 40px;
+    height: 60px;
+    padding: 10px 10px;
+    display: inline;
+
+}
+
+
+#form-principal{
+    width: 420px;
+    height: 100px;
+    color: darkgreen;
+    border: 3px;
+    border-color: gray;
+    margin-top: 320px;
+    margin-left: 220px;
+    
+}
+
+#label-principal{
+    font-size: 30px;
+}
+
+h1{
+    font-size: 60px;
+    color: green ;
+}

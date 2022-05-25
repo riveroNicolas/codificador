@@ -13,34 +13,59 @@ height: 784px;
 }
 
 .contenido{
-    position: absolute;
+    position: flex;
+
+}
+
+header{
+    position: relative;
+    margin-bottom: 80px;
 }
 
 .imagen-logo{
     width: 40px;
-    height: 60px;
+    height: 40px;
     padding: 10px 10px;
-    display: inline;
-
 }
 
 
-#form-principal{
-    width: 420px;
-    height: 100px;
-    color: darkgreen;
-    border: 3px;
-    border-color: gray;
-    margin-top: 320px;
-    margin-left: 220px;
+.form-principal{
+    position: relative;
+    margin: 25px 120px 100px;
     
 }
 
-#label-principal{
-    font-size: 30px;
+.form-secundario{
+    position: relative;
+    margin: 25px 120px 100px;
+    
+    
 }
 
+
 h1{
-    font-size: 60px;
+    font-size: 50px;
+    padding: 10px 10px;
     color: green ;
+    position: relative;
+    display: inline-flex;
+}
+
+h2{
+    font-size: 40px;
+    color: green ;
+    position: relative;
+}
+
+h6{
+    font-size: 10px;
+    color:darkgray ;
+    position: relative;
+}
+
+button{
+    position: relative;
+    width: 600px;
+    height: 80px;
+    align-content: space-around;
 }

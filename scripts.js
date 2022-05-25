@@ -7,7 +7,7 @@ function BotonEncriptar(){
 }
 
 function encriptar(stringParaEncriptar){
-    var matrizCodigo = [["a","batman"],["e","riddler"],["i","catwoman"],["o","robin"],["u","joker"]]
+    var matrizCodigo = [["a","manbat"],["e","batman"],["i","alfred"],["o","robin"],["u","joker"]]
     stringParaEncriptar = stringParaEncriptar.toLowerCase();
     for (let i=0; i< matrizCodigo.length; i++){
         if(stringParaEncriptar.includes(matrizCodigo[i][0])){
